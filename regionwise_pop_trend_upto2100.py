@@ -13,7 +13,7 @@ df1.columns = ['America', 'Europe', 'Africa', 'Asia']
 df1.plot.line()
 li= list(df1.index.values)
 
-plt.suptitle('Region Wise Population Projections (1800 to 2100)', fontsize=20)
+plt.suptitle('Region Wise Population (1800 to 2100)', fontsize=20)
 plt.xlabel('Year', fontsize=18)
 plt.ylabel('Population(Billions)', fontsize=18)
 plt.ticklabel_format(useOffset=False, style='plain')

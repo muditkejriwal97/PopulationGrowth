@@ -11,7 +11,7 @@ df2=df1.sum()
 df2.plot()
 plt.ticklabel_format(useOffset=False, style='plain')
 
-plt.suptitle('World Population Projections (1800 to 2100)', fontsize=20)
+plt.suptitle('Global Population(1800 to 2100)', fontsize=20)
 plt.xlabel('Year', fontsize=18)
 plt.ylabel('Population(Billions)', fontsize=18)
 plt.xticks(range(1800,2120,20))
